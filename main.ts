@@ -26,7 +26,6 @@ input.onButtonPressed(Button.A, function () {
 
     // runs forever until the countdown is below 0
     while (countdown >= 0) {
-        basic.showString(countdown.toString())
 
         // shows amout of green colour depending on he countdown number
         if (countdown == 4) {
@@ -49,6 +48,8 @@ input.onButtonPressed(Button.A, function () {
             neopixelStrip.show()
         }
 
+        // shows countdown to the user
+        basic.showNumber(countdown)
         // remove 1 from the countdown each time
         countdown -= 1
         basic.pause(1000)
