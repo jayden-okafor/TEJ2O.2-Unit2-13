@@ -24,7 +24,6 @@ input.onButtonPressed(Button.A, function () {
     // change countdown to 4
     countdown = 4
     
-
     // runs forever until the countdown is below 0
     while (countdown >= 0) {
 
