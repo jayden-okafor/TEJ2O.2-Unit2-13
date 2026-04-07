@@ -31,7 +31,7 @@ while True:
         # runs forever until the countdown is below 0
         while countdown >= 0:
 
-            # shows amout of green colour depending on the countdown number
+            # shows amount of green colour depending on the countdown number
             if countdown == 4:
                 neopixel_strip[0] = (0, 255, 0)
                 neopixel_strip[1] = (0, 255, 0)
