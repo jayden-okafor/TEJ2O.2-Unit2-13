@@ -55,7 +55,7 @@ input.onButtonPressed(Button.A, function () {
         basic.pause(1000)
     }
 
-    // show happy ace
+    // show happy face
     basic.clearScreen()
     basic.showIcon(IconNames.Happy)
 
