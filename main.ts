@@ -27,7 +27,7 @@ input.onButtonPressed(Button.A, function () {
     // runs forever until the countdown is below 0
     while (countdown >= 0) {
 
-        // shows amout of green colour depending on the countdown number
+        // shows amount of green colour depending on the countdown number
         if (countdown == 4) {
             neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Green))
             neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Green))
