@@ -58,5 +58,4 @@ input.onButtonPressed(Button.A, function () {
     // show happy face
     basic.clearScreen()
     basic.showIcon(IconNames.Happy)
-
 })
