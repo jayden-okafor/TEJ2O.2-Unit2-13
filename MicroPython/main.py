@@ -2,7 +2,7 @@
 #
 # Created by: Jayden Okafor
 # Created on: Apr 2026
-# This program ...
+# This program This program sets a coundown using the microbit, and turns on that many neopixels
 
 from microbit import *
 import neopixel
