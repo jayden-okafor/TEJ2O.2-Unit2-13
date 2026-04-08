@@ -2,7 +2,7 @@
  *
  * Created by: Jayden Okafor
  * Created on: Apr 2026
- * This program ...
+ * This program sets a coundown using the microbit, and turns on that many neopixels
 */
 
 // variables
@@ -23,7 +23,7 @@ input.onButtonPressed(Button.A, function () {
 
     // change countdown to 4
     countdown = 4
-
+    
     // runs forever until the countdown is below 0
     while (countdown >= 0) {
 
